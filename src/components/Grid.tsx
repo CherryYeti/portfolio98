@@ -2,7 +2,7 @@ import Project from "./Project";
 
 const Grid = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
       <Project
         name="FireStarter"
         link="https://github.com/CherryYeti/firestarter"
@@ -14,6 +14,12 @@ const Grid = () => {
         link="https://github.com/CherryYeti/portfolio98"
         image="website.png"
         description="This portfolio was created entirely from scratch in react in a day."
+      />
+      <Project
+        name="My Mother's Portfolio"
+        link="https://github.com/CherryYeti/kate"
+        image="website.png"
+        description="My mother's old portfolio was running extremely slowly, so I decided to rebuild the entire website."
       />
       <Project
         name="My Github"
