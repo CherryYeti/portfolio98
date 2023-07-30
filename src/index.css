@@ -4,6 +4,7 @@
 @font-face {
   font-family: 'W95FA';
   src: url('./W95FA.otf') format('opentype');
+  font-display: swap;
 }
 body {
   margin: 0;

@@ -1,4 +1,3 @@
-import "./App.css";
 import MainLayout from "./layouts/MainLayout";
 import Grid from "./components/Grid";
 import Header from "./components/Header";
@@ -8,7 +7,7 @@ function App() {
     <div className="App">
       <MainLayout>
         <Header title="Hi, I'm CherryYeti!" />
-        <img src="fs64.png" alt="" className="w-[200px] rendering-pixelated" />
+        <img src="fs64.png" alt="" className="w-[200px] h-[200px] rendering-pixelated" />
         <Header title="About me" />
         <p className="text-xl">
           Hello! My name is Jason Javandel. I am a second year college student
