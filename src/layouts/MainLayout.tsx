@@ -12,7 +12,7 @@ const MainLayout = ({ children }: LayoutProps) => {
               <img
                 src="notepad.png"
                 alt="Logo"
-                className="h-6 w-6 ml-2 mr-1 my-1 rendering-pixelated"
+                className="h-6 w-6 ml-2 mr-1 rendering-pixelated"
               />
               <p className="text-xl">CherryYeti</p>
               <div className="flex items-center ml-auto">
